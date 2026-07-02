@@ -2875,7 +2875,6 @@ rb_parser_ary_free(rb_parser_t *p, rb_parser_ary_t *ary)
  */
 
 %nonassoc tLOWEST
-%nonassoc tASSOC
 %nonassoc tLBRACE_ARG
 
 %nonassoc  modifier_if modifier_unless modifier_while modifier_until keyword_in
